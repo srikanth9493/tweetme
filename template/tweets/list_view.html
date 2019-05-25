@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>list_view</h1>
+  {% for i in tweet_list %}
+        <a href="tweets/{{i.id}}">{{i}}</a><br>
+    {% endfor %}
+</body>
+</html>
